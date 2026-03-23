@@ -4,7 +4,6 @@ icon: lucide/home
 
 # Vad är Lagdata?
 
-
 Lagdata är ett litet projekt för att samla så mycket kunskap som möjligt om hur man kan komma åt och återanvända Sveriges rättsinformation på ett maskinellt sätt. Målet är att sänka tröskeln för myndigheter, forskare, journalister, innovatörer och medborgare som vill få tillgång till rättsinformation på ett modernt sätt.
 
 Och vi gör det genom att kollaborativt dokumentera vilka primära och sekundära källor finns idag, vilka projekt och organisationer tillgängliggör informationen på ett bättre sätt än den offentliga sektorn, och inspirera med exempel.
