@@ -1,6 +1,6 @@
 # g0v.se
 
-!!! info "Samma person ligger bakom g0v.se och Lagdata"
+!!! info "Obs: Samma person ligger bakom g0v.se och Lagdata"
 
 [g0v.se](https://g0v.se) är en gratis tjänst som hämtar alla sidor från regeringen.se varje natt och tillgängliggör webbplatsens information som öppna strukturerade data.
 

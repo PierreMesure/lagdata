@@ -4,6 +4,8 @@ icon: lucide/home
 
 # Vad är Lagdata?
 
+> *Lagrummet.se för utvecklare*
+
 Lagdata är ett litet projekt för att samla så mycket kunskap som möjligt om hur man kan komma åt och återanvända Sveriges rättsinformation på ett maskinellt sätt. Målet är att sänka tröskeln för myndigheter, forskare, journalister, innovatörer och medborgare som vill få tillgång till rättsinformation på ett modernt sätt.
 
 Och vi gör det genom att kollaborativt dokumentera vilka primära och sekundära källor finns idag, vilka projekt och organisationer tillgängliggör informationen på ett bättre sätt än den offentliga sektorn, och inspirera med exempel.
@@ -18,4 +20,4 @@ Men projektet bygger helt på öppna data och öppen källkod och jag hoppas att
 
 ## Jag hittar inte vad jag letar efter
 
-Då får du gärna skapa en tråd på projektets Github eller mejla så vi kan komplettera dokumentationen.
+Då får du gärna skapa en tråd på projektets [Github](https://github.com/PierreMesure/lagdata/issues) eller [mejla](mailto:pierre@mesu.re) så vi kan komplettera dokumentationen.

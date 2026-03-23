@@ -15,24 +15,6 @@ copyright = """
 CC-BY 4.0 Pierre Mesure
 """
 
-nav = [
-  { "Hem" = "index.md" },
-  { "Varför?" = "why.md" },
-  { "Förarbeten" = [
-      "förarbeten/ds.md",
-      "förarbeten/sou.md"
-  ]},
-  { "Styrdokument" = [
-      "styrdokument/regleringsbrev.md"
-  ]},
-  { "Källor" = [
-      "källor/lagen-nu.md",
-      "källor/riksdagens-oppna-data.md",
-      "källor/swerik.md",
-      "källor/g0vse.md"
-  ]}
-]
-
 extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your

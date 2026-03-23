@@ -35,4 +35,6 @@ https://www.statskontoret.se/regleringsbrev/bilaga/{ID}
 
 ### Projektet Öppna Statsliggaren
 
+!!! info "Obs: Samma person ligger bakom detta projekt och Lagdata"
+
 Projektet består av ett Python-paket för att maskinellt ladda ner alla regleringsbrev från Statsliggaren. Källkoden och dokumentationen finns på [Github](https://github.com/civictechsweden/oppna-statsliggaren).
