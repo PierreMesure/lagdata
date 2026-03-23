@@ -36,6 +36,7 @@ extra_css = ["stylesheets/extra.css"]
 custom_dir = "overrides"
 favicon = "assets/logo.svg"
 language = "sv"
+font = false
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
