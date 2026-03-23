@@ -29,3 +29,15 @@ g0v.se erbjuder en strukturerad lista av alla departementsserien som går att la
 Se [den relevanta sidan](../källor/g0vse).
 
 Lagen.nu tillgängliggör Ds anda sedan 1996.
+
+### Hitta remissvar
+
+Se [den relevanta sidan](../vanliga-källor/hitta-remissvar).
+
+Hitta remissvar erbjuder en lista av alla Ds sedan 2002 med mycket metadata: förslag, konsekvenskapitel, rensade beteckningsnummer och även en lista av remissvar för varje utredning.
+
+### In- och utredning
+
+Se [den relevanta sidan](../vanliga-källor/in-och-utredning).
+
+In- och utredningar erbjuder en lista av samma departementsserien som finns på Riksdagens öppna data med en genererad referenslista (dvs. vilka utredningar citerar varandra).

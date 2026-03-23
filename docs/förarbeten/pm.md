@@ -12,6 +12,6 @@ Regeringskansliet ([regeringen.se > Dokument & publikationer > Departementsserie
 
 ### g0v.se
 
-Se [den relevanta sidan](../källor/g0vse).
+Se [den relevanta sidan](../vanliga-källor/g0vse).
 
-g0v.se erbjuder en strukturerad lista av alla departementsserien som går att ladda ner på regeringen.se med max 24 timmar fördröjning. De äldsta dokumenten som är tillgängliga är från 1993.
+g0v.se erbjuder en strukturerad lista av alla promemorior som går att ladda ner på regeringen.se med max 24 timmar fördröjning. De äldsta dokumenten som är tillgängliga är från 1993.
