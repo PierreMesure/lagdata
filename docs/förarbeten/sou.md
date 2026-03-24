@@ -2,7 +2,7 @@
 
 ## Officiel källa
 
-Regeringskansliet ([regeringen.se > Dokument & publikationer > Statliga offentliga utredningar](https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/))
+Regeringskansliet ([regeringen.se > Dokument & publikationer > Statliga offentliga utredningar](https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/) och [sou.gov.se](https://www.sou.gov.se))
 
 ### Erbjuder de ett API?
 
