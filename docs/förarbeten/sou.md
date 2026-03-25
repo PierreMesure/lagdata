@@ -10,12 +10,15 @@ Regeringskansliet ([regeringen.se > Dokument & publikationer > Statliga offentli
 
 ## Alternativa källor
 
+### Kungl. biblioteket
+
+KB tillgängliggör alla SOU från 1867-1999 på [sou.kb.se](https://sou.kb.se). De erbjuder tyvärr inget API men deras dokument har hämtats och tillgängliggjorts av flera andra organisationer som nämns nedan.
+
 ### Riksdagens öppna data
 
 Se [den relevanta sidan](../vanliga-källor/riksdagens-oppna-data).
 
 Riksdagsförvaltningen samlar alla statliga utredningar anda sedan 1867.
-
 Observera att det kan dröja flera dagar eller veckor innan vissa dokument hittas i Riksdagens öppna data.
 
 ### g0v.se
@@ -41,3 +44,26 @@ Hitta remissvar erbjuder en lista av alla utredningar sedan 2002 med mycket meta
 Se [den relevanta sidan](../vanliga-källor/in-och-utredning).
 
 In- och utredningar erbjuder en lista av samma utredningar som finns på Riksdagens öppna data med en genererad referenslista (dvs. vilka utredningar citerar varandra).
+
+### Linköpings universitet
+
+Linköpings universitet erbjuder en [söktjänst](https://ep.liu.se/databases/sou/default.aspx) för att göra ordsök i utredningar från 1867 till idag. De har även ett API som är begränsat till 5 sökresultat utan API-nyckel.
+
+```bash
+https://www2.bibl.liu.se/api/sou_api/getdata.aspx?q=fritext:hvo&fl=namn,titel,url&wt=json&api_key=test
+
+# Parametrar
+# q: sökord, kan kombineras med "titel:" eller "fritext:" för att söka enbart i vissa fält
+# fl: vilka kolumner inkluderas
+# wt: xml eller json
+# api_key: för att få fler än 5 sökresultat
+
+# Kolumner:
+# id - löpnummer
+# namn - SOU-namnbeteckning, ex '1969:46'
+# ar - År
+# nummer - nummer
+# titel - SOUns titel
+# url - url till pdf
+# fritext - hela textinnehållet i respektive SOU
+```
