@@ -4,7 +4,7 @@
 
 Regeringskansliet ([regeringen.se > Dokument & publikationer > Statliga offentliga utredningar](https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/) och [sou.gov.se](https://www.sou.gov.se))
 
-### Erbjuder de ett API?
+### Erbjuder de ett öppet API?
 
 ❌ Nej
 

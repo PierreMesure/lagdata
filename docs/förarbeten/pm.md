@@ -4,7 +4,7 @@
 
 Regeringskansliet ([regeringen.se > Dokument & publikationer > Departementsserien och promemorior](https://www.regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/))
 
-### Erbjuder de ett API?
+### Erbjuder de ett öppet API?
 
 ❌ Nej
 

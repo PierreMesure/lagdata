@@ -4,7 +4,7 @@
 
 Regeringskansliet, via Statskontoret ([statskontoret.se/statsliggaren](https://www.statskontoret.se/statsliggaren/))
 
-### Erbjuder de ett API?
+### Erbjuder de ett öppet API?
 
 ❌ Nej
 

@@ -4,7 +4,7 @@
 
 Regeringskansliet ([regeringen.se/regeringsuppdrag](https://www.regeringen.se/regeringsuppdrag/))
 
-### Erbjuder de ett API?
+### Erbjuder de ett öppet API?
 
 ❌ Nej
 

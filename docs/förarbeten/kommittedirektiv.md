@@ -4,7 +4,7 @@
 
 Regeringskansliet ([regeringen.se > Dokument & publikationer > Kommittédirektiv](https://www.regeringen.se/rattsliga-dokument/kommittedirektiv/) i PDF-format och [rkrattsbaser.gov.se/dir](https://rkrattsbaser.gov.se/dir) i fulltext)
 
-### Erbjuder de ett API?
+### Erbjuder de ett öppet API?
 
 ❌ Nej
 
@@ -29,3 +29,7 @@ g0v.se erbjuder en strukturerad lista av alla kommittédirektiv som går att lad
 Se [den relevanta sidan](../vanliga-källor/g0vse).
 
 Lagen.nu tillgängliggör kommittédirektiv anda sedan 1980.
+
+### Regeringskansliets rättsdatabaser
+
+Se [den relevanta sidan](../vanliga-källor/rkrattsdb).

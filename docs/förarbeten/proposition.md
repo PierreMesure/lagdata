@@ -4,7 +4,7 @@
 
 Regeringskansliet ([regeringen.se > Dokument & publikationer > Proposition](https://www.regeringen.se/rattsliga-dokument/proposition/))
 
-### Erbjuder de ett API?
+### Erbjuder de ett öppet API?
 
 ❌ Nej
 
