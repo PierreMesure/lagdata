@@ -22,14 +22,6 @@ Se [den relevanta sidan](../vanliga-källor/riksdagens-oppna-data).
 
 I Riksdagens öppna data hittar man såklart svenska författningar. De går att ladda ner som text eller HTML. Observera att text-versionen är mycket närmare Regeringskansliets med radbrytningar och inga rubriker. I HTML-versionen har Riksdagsförvaltningen försökt att slå ihop linjer som tillhör samma paragraf och att återskapa rubriker.
 
-### lagen.nu
-
-Se [den relevanta sidan](../vanliga-källor/lagen-nu).
-
-Lagen.nu erbjuder kanske den mest kompletta versionen av svenska författningssamlingen. Utöver en justering i textens format har Staffan även sett till att inkludera metadata för många delar av texten: referenser i samma eller andra författningar, författningskommentarer. Lagen.nu bevarar även tidigare versioner när en författning ändras, medan de andra aktörerna enbart tillgängliggör den senaste versionen som fulltext.
-
-Problemet är dock att lagen.nu har väldigt lite dokumentation för sitt API och metadatan sitter i ett XML-format som kan vara svårt att ta sig an.
-
 ### SE-lex
 
 Se [den relevanta sidan](../vanliga-källor/se-lex).
@@ -50,3 +42,11 @@ dataset = load_dataset(
     columns=["beteckning", "text"],
 )
 ```
+
+### lagen.nu
+
+Se [den relevanta sidan](../vanliga-källor/lagen-nu).
+
+Lagen.nu erbjuder kanske den mest kompletta versionen av svenska författningssamlingen. Utöver en justering i textens format har Staffan även sett till att inkludera metadata för många delar av texten: referenser i samma eller andra författningar, författningskommentarer. Lagen.nu bevarar även tidigare versioner när en författning ändras, medan de andra aktörerna enbart tillgängliggör den senaste versionen som fulltext.
+
+Problemet är dock att lagen.nu har väldigt lite dokumentation för sitt API och metadatan sitter i ett XML-format som kan vara svårt att ta sig an.
