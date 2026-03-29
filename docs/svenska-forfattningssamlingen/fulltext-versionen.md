@@ -22,9 +22,40 @@ Se [den relevanta sidan](../vanliga-källor/riksdagens-oppna-data).
 
 I Riksdagens öppna data hittar man såklart svenska författningar. De går att ladda ner som text eller HTML. Observera att text-versionen är mycket närmare Regeringskansliets med radbrytningar och inga rubriker. I HTML-versionen har Riksdagsförvaltningen försökt att slå ihop linjer som tillhör samma paragraf och att återskapa rubriker.
 
-### SE-lex
+### SE-Lex
 
 Se [den relevanta sidan](../vanliga-källor/se-lex).
+
+SE-Lex har [`sfs-processor`](https://github.com/se-lex/sfs-processor) som är ett CLI-verktyg som kan läser in SFS från [Regeringskansliets rättsdatabaser](../vanliga-källor/rkrattsdb.md) och omvandlar till olika format:
+
+#### Git
+
+SFS omvandlas kontinuerligt till Git commits och pushas till [Git-repo se-lex/sfs](https://github.com/se-lex/sfs). Man kan där följa ändringarna av lagar och författningarna över tid, med Git som är världens mest använda versionshanteringsverktyg.
+
+#### HTML (med ELI)
+
+`sfs-processor` kan också exportera SFS till HTML-sidor, som är korrekt upptaggat för [ELI](https://eur-lex.europa.eu/eli-register/what_is_eli.html), den juridiska standard som EU tagit fram för publicerad lagstiftning.
+
+#### Markdown med temporala taggar
+
+Det finns också möjlighet att exportera till Markdown, med eller utan temporala taggar. Dessa XML-taggar innehåller information om status för varje del av dokumentet, om det är i kraft (giltigt vid given tidpunkt) eller har upphört.
+
+```html
+<section class="kapitel" selex:status="ikraft" selex:ikraft_datum="2025-01-01">
+### 1 § En paragraf
+...
+</section>
+
+<section class="paragraf" selex:status="upphavd" selex:upphor_datum="2023-12-31">
+#### 2 § En paragraf
+...
+</section>
+
+<section class="kapitel" selex:status="ikraft" selex:ikraft_villkor="den dag regeringen bestämmer">
+### 3 § Rubrik på villkorad ikraftträdande
+...
+</section>
+```
 
 ### open-sfs
 
