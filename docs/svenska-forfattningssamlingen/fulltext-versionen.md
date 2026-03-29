@@ -22,17 +22,40 @@ Se [den relevanta sidan](../vanliga-källor/riksdagens-oppna-data).
 
 I Riksdagens öppna data hittar man såklart svenska författningar. De går att ladda ner som text eller HTML. Observera att text-versionen är mycket närmare Regeringskansliets med radbrytningar och inga rubriker. I HTML-versionen har Riksdagsförvaltningen försökt att slå ihop linjer som tillhör samma paragraf och att återskapa rubriker.
 
-### lagen.nu
-
-Se [den relevanta sidan](../vanliga-källor/lagen-nu).
-
-Lagen.nu erbjuder kanske den mest kompletta versionen av svenska författningssamlingen. Utöver en justering i textens format har Staffan även sett till att inkludera metadata för många delar av texten: referenser i samma eller andra författningar, författningskommentarer. Lagen.nu bevarar även tidigare versioner när en författning ändras, medan de andra aktörerna enbart tillgängliggör den senaste versionen som fulltext.
-
-Problemet är dock att lagen.nu har väldigt lite dokumentation för sitt API och metadatan sitter i ett XML-format som kan vara svårt att ta sig an.
-
-### SE-lex
+### SE-Lex
 
 Se [den relevanta sidan](../vanliga-källor/se-lex).
+
+SE-Lex har [`sfs-processor`](https://github.com/se-lex/sfs-processor) som är ett CLI-verktyg som läser in SFS från [Regeringskansliets rättsdatabaser](../vanliga-källor/rkrattsdb.md) och omvandlar till olika format:
+
+#### Git
+
+SFS omvandlas kontinuerligt till Git commits och pushas till [Git-repo se-lex/sfs](https://github.com/se-lex/sfs). Man kan där följa ändringarna av lagar och författningar över tid, med Git som är världens mest använda versionshanteringsverktyg.
+
+#### HTML (med ELI)
+
+`sfs-processor` kan också exportera SFS till HTML-sidor, som är korrekt upptaggade för [ELI](https://eur-lex.europa.eu/eli-register/what_is_eli.html), den juridiska standard som EU tagit fram för publicerad lagstiftning.
+
+#### Markdown med temporala taggar
+
+Det finns också möjlighet att exportera till Markdown, med eller utan temporala taggar. Dessa XML-taggar innehåller information om status för varje del av dokumentet, om det är i kraft (giltigt vid given tidpunkt) eller har upphört.
+
+```html
+<section class="kapitel" selex:status="ikraft" selex:ikraft_datum="2025-01-01">
+### 1 § En paragraf
+...
+</section>
+
+<section class="paragraf" selex:status="upphavd" selex:upphor_datum="2023-12-31">
+#### 2 § En paragraf
+...
+</section>
+
+<section class="kapitel" selex:status="ikraft" selex:ikraft_villkor="den dag regeringen bestämmer">
+### 3 § Rubrik för villkorat ikraftträdande
+...
+</section>
+```
 
 ### open-sfs
 
@@ -50,3 +73,11 @@ dataset = load_dataset(
     columns=["beteckning", "text"],
 )
 ```
+
+### lagen.nu
+
+Se [den relevanta sidan](../vanliga-källor/lagen-nu).
+
+Lagen.nu erbjuder kanske den mest kompletta versionen av svenska författningssamlingen. Utöver en justering i textens format har Staffan även sett till att inkludera metadata för många delar av texten: referenser i samma eller andra författningar, författningskommentarer. Lagen.nu bevarar även tidigare versioner när en författning ändras, medan de andra aktörerna enbart tillgängliggör den senaste versionen som fulltext.
+
+Problemet är dock att lagen.nu har väldigt lite dokumentation för sitt API och metadatan sitter i ett XML-format som kan vara svårt att ta sig an.
