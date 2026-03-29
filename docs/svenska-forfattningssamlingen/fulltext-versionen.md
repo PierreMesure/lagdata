@@ -26,15 +26,15 @@ I Riksdagens öppna data hittar man såklart svenska författningar. De går att
 
 Se [den relevanta sidan](../vanliga-källor/se-lex).
 
-SE-Lex har [`sfs-processor`](https://github.com/se-lex/sfs-processor) som är ett CLI-verktyg som kan läser in SFS från [Regeringskansliets rättsdatabaser](../vanliga-källor/rkrattsdb.md) och omvandlar till olika format:
+SE-Lex har [`sfs-processor`](https://github.com/se-lex/sfs-processor) som är ett CLI-verktyg som läser in SFS från [Regeringskansliets rättsdatabaser](../vanliga-källor/rkrattsdb.md) och omvandlar till olika format:
 
 #### Git
 
-SFS omvandlas kontinuerligt till Git commits och pushas till [Git-repo se-lex/sfs](https://github.com/se-lex/sfs). Man kan där följa ändringarna av lagar och författningarna över tid, med Git som är världens mest använda versionshanteringsverktyg.
+SFS omvandlas kontinuerligt till Git commits och pushas till [Git-repo se-lex/sfs](https://github.com/se-lex/sfs). Man kan där följa ändringarna av lagar och författningar över tid, med Git som är världens mest använda versionshanteringsverktyg.
 
 #### HTML (med ELI)
 
-`sfs-processor` kan också exportera SFS till HTML-sidor, som är korrekt upptaggat för [ELI](https://eur-lex.europa.eu/eli-register/what_is_eli.html), den juridiska standard som EU tagit fram för publicerad lagstiftning.
+`sfs-processor` kan också exportera SFS till HTML-sidor, som är korrekt upptaggade för [ELI](https://eur-lex.europa.eu/eli-register/what_is_eli.html), den juridiska standard som EU tagit fram för publicerad lagstiftning.
 
 #### Markdown med temporala taggar
 
@@ -52,7 +52,7 @@ Det finns också möjlighet att exportera till Markdown, med eller utan temporal
 </section>
 
 <section class="kapitel" selex:status="ikraft" selex:ikraft_villkor="den dag regeringen bestämmer">
-### 3 § Rubrik på villkorad ikraftträdande
+### 3 § Rubrik för villkorat ikraftträdande
 ...
 </section>
 ```
